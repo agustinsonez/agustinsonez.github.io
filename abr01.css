@@ -1,0 +1,306 @@
+    header{
+      
+        font-family: Brush Script MT;
+        text-align:center;
+        background-color:#050404;
+        padding: I rem;}
+  
+        .temp{
+          float: right;
+        }
+         
+        .anuncio {
+          margin-top: 0px;
+          left: 0px;
+          position: absolute;
+       
+          
+         }
+         .anuncio2 {
+          margin-top: 0px;
+          right: 0px;
+          position: absolute;
+       
+          
+         }
+         .musica{
+          left: 0%; 
+          position: absolute;
+
+
+
+         }
+    body{
+      
+      margin: 0 300px;
+    background-color:#d7dbdd;
+    text-align: justify;
+    font-family: cursive;
+    line-height: 2.5;  }
+  
+    ul .horizontal{
+    font-family:"Brush Script MT";
+    padding: 1rem;
+    background-color: #75EBC7;}
+
+    ul .horizontal li{
+    display: block;
+    font:left;
+    padding:0 10px;    
+    
+}
+
+
+
+.banner-title{
+
+
+box-shadow:
+6.3px 5.8px 11.8px rgba(0, 0, 0, 0.04),
+13.3px 12.2px 21.2px rgba(0, 0, 0, 0.076),
+21.8px 20.1px 28.8px rgba(0, 0, 0, 0.106),
+34.1px 31.3px 35.5px rgba(0, 0, 0, 0.13),
+56.6px 52.1px 45.1px rgba(0, 0, 0, 0.148),
+125px 115px 80px rgba(0, 0, 0, 0.21)
+;}
+.LISTA{
+display: inline-block;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+margin: 25px;
+box-shadow:
+  2.4px 2.4px 5.5px -17px rgba(0, 0, 0, 0.046),
+  5.5px 5.7px 10px -17px rgba(0, 0, 0, 0.067),
+  10px 10.2px 13.7px -17px rgba(0, 0, 0, 0.083),
+  16.5px 16.9px 17.7px -17px rgba(0, 0, 0, 0.097),
+  27.2px 27.8px 24.3px -17px rgba(0, 0, 0, 0.113),
+  47.6px 48.5px 34.1px -17px rgba(0, 0, 0, 0.134),
+  103px 105px 46px -17px rgba(0, 0, 0, 0.18)
+;
+background-color: #dee1e2;
+text-decoration: none;
+
+
+}
+section {
+  background-image: url("E:\t}\Primeros Pasos\fondo");   }
+
+
+UL .HORIZONTAL LI{
+    display: block;
+    float: left;
+    padding:0 10px;
+}
+/*footer*/
+/* Generic styling */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding   : 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
+
+.banner
+{
+    height: 400px;
+    position: relative;
+    background: rgba(29, 19, 19, 0.733);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.banner-title
+{
+    line-height: 1.5;
+    font-size: 3.1em;
+}
+
+.banner-p
+{   
+
+  box-shadow:
+  6.3px 5.8px 11.8px rgba(0, 0, 0, 0.04),
+  13.3px 12.2px 21.2px rgba(0, 0, 0, 0.076),
+  21.8px 20.1px 28.8px rgba(0, 0, 0, 0.106),
+  34.1px 31.3px 35.5px rgba(0, 0, 0, 0.13),
+  56.6px 52.1px 45.1px rgba(0, 0, 0, 0.148),
+  125px 115px 80px rgba(0, 0, 0, 0.21)
+  ;
+
+    line-height: 2;
+    font-size: 1.1em;
+    opacity: 0.9;
+    margin-top: 13em;
+}
+
+.banner-info
+{
+    padding: 0 1em;
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+
+MENUNAVEGACIÓN{
+
+  padding: 1rem;
+  margin: 0;    
+  display: block;
+background-color: white;  
+font-weight: bold;
+margin-right: 0;
+padding-left: 0;}
+.menu de navegacion A {
+    display: inline;
+    padding: 0,5;
+    border-right: tpx solid;
+    margin-left: 2 px;    
+    
+}
+manu navegación A:hover{
+    background-color: black;
+    padding: 1rem;
+    
+    
+}
+.contador{
+  float: right;
+  position: absolute;
+} 
+.nube{
+position: absolute;
+
+
+
+}
+.galaxiax{
+margin-bottom: 70px;
+}
+.p{
+
+  margin-bottom: 70px;
+}
+.nubex{
+
+  margin-bottom: 100px;
+}
+.lunat{
+
+  margin-bottom: 100px;
+}

@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+.columna{
+    float: left;
+    width: 100%;
+    padding-right: 5%;
+}
+.fila::after{
+content: "";
+clear: both;
+display: table;
+
+}
+
+.h1 {
+    width: 1400px;
+    height: auto; 
+}
+.h2 {
+    width: 1400px;
+    height: auto; 
+}
+.h3 {
+    width: 1400px;
+    height: auto; 
+}
+.h4 {
+    width: 1400px;
+    height: auto; 
+}
